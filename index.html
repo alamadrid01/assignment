@@ -9,56 +9,110 @@
 </head>
 
 <body>
+  <nav id="navbar">
+    <div class="left">
+      Welcome
+    </div>
+    <div class="right">
+      <ul class='nav-ul'>
+        <li class='nav-li'><a href="#home">Home </a> </li>
+        <li class='nav-li'><a href="#about">About </a> </li>
+        <li class='nav-li'><a href="#services">Services </a> </li>
+        <li class='nav-li'><a href="#projects">Project </a> </li>
+        <li class='nav-li'><a target= 'blank' href="./contact.html">Contact </a> </li>
+      </ul>
+    </div>
+  </nav>
 
-  <h1>Registration Page</h1>
+  <main>
+    <div id="home">
+      <h1>Hi! I'am </h1>
+      <h1>Adebayo Al-ameen</h1>
+    </div>
+    <div class='sec'>
+      <h2 class='sub-title'>ABOUT ME</h2>
+      <div class="secondSection">
+        <div class='left'>
+          <div class='image'>
+            <img src="./profile.jpg" class="profile" />
+          </div>
+        </div>
 
-  <form action="./login.html">
-    <div class="a">
-      <label>First Name</label>
-    <input required type="text" placeholder="First Name" autofocus />
+        <div class='right'>
+          <h2>Adebayo Al-ameen</h2>
+          <h4>Founder of ALoy Tech Electrical Company</h4>
+          <p>I am a Front end Developer and a Back end Developer</p>
+          I am a full stack developer
+        </div>
+      </div>
+      <div id='about'>
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Playing Table Tennis</li>
+          <li>Eating :)</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <p>HTML <span>★★★★★</span></p>
+        <p>CSS <span>★★★★★</span></p>
+        <p>Javascript <span>★★★★</span></p>
+        <p>React JS <span>★★★★</span></p>
+        <p>Node JS <span>★★★★</span></p>
+        <p>PHP <span>★★★</span></p>
+
+      </div>
+      <div id='projects'>
+        <h2 class='sub-title'>PROJECTS</h2>
+        <div class='a'>
+          <h3><a href='https://alamadrid01.github.io/portfolio/#'>My Portfolio</a>
+          </h3>
+          <div class='project-images'>
+            <img class="project-image" src='./port.png' </div>
+          </div>
+
+          <div class='a'>
+            <h3><a href='https://thefirstport.netlify.app/'>Web Zone</a>
+            </h3>
+            <div class='project-images'>
+              <img class="project-image" src='./webzone.png' </div>
+            </div>
+
+
+          </div>
+          <div id='services'>
+            <h2 class='sub-title'>SERVICES</h2>
+            <p>Building of website</p>
+            <p>Building of mobile app</p>
+            <p>Building of we application</p>
+            <p>Data management</p>
+          </div>
+        </div>
+
+
+  </main>
+
+  <footer>
+    <div class='b'>
+      <h3><a style= 'color: white' href="#navbar">Back to top</a></h3>
     </div>
 
-        <div class="a">
-      <label>Last Name</label>
-    <input required type="text" placeholder="First Name"  />
+    <div class='b'>
+      <h3>Contact me</h3>
+      <p>07049473853</p>
+      <p>adebayoalameen88@gmail.com</p>
+      <p>Whatsapp 08136894051</p>
     </div>
-
-        <div class="a">
-      <label>Phone Number</label>
-    <input required type="tel" placeholder="Phone Number"  />
-    </div>
-
-        <div class="a">
-      <label>Email</label>
-    <input required type="email" placeholder="Email Address"  />
-    </div>
-
-        <div class="a">
-      <p>Gender</p>
-          <label>Male</label>
-    <input type="radio" value="male" name="gender" />
-          <label>Female</label>
-          <input type="radio" value="female" name="gender"/>
-    </div>
-
-       <div class="a">
-      <label>Favourite color</label>
-    <input type="color"   />
-    </div>
-
-    <button type="submit"> Register</button>
-  </form>
+  </footer>
 
 
-  
   <script src="script.js"></script>
 
- <!--
+  <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
 </body>
 
 </html>
